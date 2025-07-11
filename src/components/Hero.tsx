@@ -71,14 +71,14 @@ const Hero = () => {
               border="4px solid"
               borderColor={accentColor}
               boxShadow="2xl"
-              bg="background.secondary"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
             >
-              <Text fontSize="6xl" color="text.muted">
-                👨‍💻
-              </Text>
+              <Image
+                src="/public/profile.png"
+                alt="Omer's profile photo"
+                width="100%"
+                height="100%"
+                objectFit="cover"
+              />
             </Box>
           </MotionBox>
 
@@ -98,7 +98,7 @@ const Hero = () => {
             >
               Hi, I'm{' '}
               <Text as="span" color={accentColor}>
-                [Your Name]
+                Omer
               </Text>
             </Heading>
             <Heading
@@ -108,7 +108,7 @@ const Hero = () => {
               mb={6}
               fontWeight="medium"
             >
-              Machine Learning Engineer
+              Junior Machine Learning Engineer & Researcher
             </Heading>
           </MotionBox>
 

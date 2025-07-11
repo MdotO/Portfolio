@@ -16,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Box as="footer" py={8} bg="background.secondary" mt="auto">
         <Container maxW="container.xl" textAlign="center">
           <Box color="text.muted" fontSize="sm">
-            © 2024 Portfolio. Built with React and Chakra UI.
+            © 2025 Portfolio. Built with React and Chakra UI.
           </Box>
         </Container>
       </Box>

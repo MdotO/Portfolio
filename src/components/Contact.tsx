@@ -22,6 +22,7 @@ import {
   FaGoogle,
   FaTwitter
 } from 'react-icons/fa'
+import { FaGoogleScholar } from 'react-icons/fa6'
 
 const MotionBox = motion(Box)
 const MotionVStack = motion(VStack)
@@ -75,19 +76,19 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       label: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com',
+      value: 'omarraza23.12@gmail.com',
+      link: 'mailto:omarraza23.12@gmail.com',
     },
     {
       icon: FaPhone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+1 (219) 2388 367',
+      link: 'tel:+12192388367',
     },
     {
       icon: FaMapMarkerAlt,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Hammond, IN',
       link: null,
     },
   ]
@@ -95,27 +96,21 @@ const Contact = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/username',
+      url: 'https://github.com/MdotO',
       icon: FaGithub,
       color: 'gray.400',
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/username',
+      url: 'https://linkedin.com/in/omer-raza-aa045219a/',
       icon: FaLinkedin,
       color: 'blue.400',
     },
     {
       name: 'Google Scholar',
-      url: 'https://scholar.google.com/citations?user=username',
-      icon: FaGoogle,
+      url: 'https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AL3_zii4H6k8mULnnyG_UVER3FT7AH90sdw6iVNynpdIM6XlDvHX723bguU9eb__8xwzuIHhi0Dbarudh76MxsDQGyLr-4LfdE73m1krUj0&user=oPbPzGgAAAAJ',
+      icon: FaGoogleScholar,
       color: 'yellow.400',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/username',
-      icon: FaTwitter,
-      color: 'blue.300',
     },
   ]
 

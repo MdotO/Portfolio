@@ -249,7 +249,7 @@ The application serves as a foundation for various computer vision use cases, fr
     },
     teamSize: 3,
     role: 'Computer Vision Engineer',
-    tools: ['Docker', 'NVIDIA Docker', 'TensorBoard', 'LabelImg'],
+    tools: ['Docker', 'TensorBoard', 'LabelImg'],
     methodologies: ['Agile', 'MLOps', 'Continuous Integration']
   }
 ]

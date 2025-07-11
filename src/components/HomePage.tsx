@@ -5,8 +5,6 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 
-const MotionBox = motion(Box)
-
 const HomePage = () => {
   return (
     <VStack spacing={0}>
